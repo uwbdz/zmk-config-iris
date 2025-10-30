@@ -3,7 +3,7 @@ id: iris
 name: Iris
 type: shield
 url: https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard
-requires: [pro_micro]
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
