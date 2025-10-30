@@ -35,15 +35,8 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,2) RC(4,9) RC(3,6) RC(3,7) 
         wakeup-source;
 
 
-CONFIG_USB
 
-CONFIG_ZMK_USB
-
-CONFIG_USB_DEVICE_MANUFACTURER
-    default "ZMK Project"
-
-
-        diode-direction = "row2col";
+        diode-direction = "col2row";
         row-gpios
             = <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
