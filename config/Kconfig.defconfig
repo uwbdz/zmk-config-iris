@@ -17,3 +17,11 @@ config ZMK_SPLIT
     default y
 
 endif
+
+
+CONFIG_USB
+
+CONFIG_ZMK_USB
+
+CONFIG_USB_DEVICE_MANUFACTURER
+    default "ZMK Project"
